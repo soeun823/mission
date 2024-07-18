@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background: url(../image/bg_stroke.png);
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 751px;
+    height: 408px;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 85px;
+    background-color: white;
+}
+input[type="text"] {
+    border-radius: 20px;
+    padding-left: 20px;
+    width: 582px;
+    height: 49px;
+}
+.add {
+    border-radius: 20px;
+    padding-left: 20px;
+    text-align: center;
+    border-radius: 20px;
+    width: 582px;
+    height: 49px;
+    margin-top: 55px;
+}
+.make {
+    background-color: rgba(0, 175, 145, 1);
+    width: 582px;
+    height: 49px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    margin-top: 55px;
+}

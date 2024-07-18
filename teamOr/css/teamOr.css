@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background: url(../image/bg_stroke.png);
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 750px;
+    height: 590px;
+    padding: 74px 83px;
+    border: solid 1px black;
+    background-color: white;
+}
+form {
+    margin-top: 46px;
+}
+input[type="text"] {
+    width: 584px;
+    height: 49px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+input[type="submit"] {
+    width: 584px;
+    height: 92px;
+    border-radius: 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: rgba(0, 175, 145, 1);
+    margin-top: 55px;
+}

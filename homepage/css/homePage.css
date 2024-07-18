@@ -1,0 +1,258 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+aside {
+    position: absolute;
+    width: 200px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+
+    background: #ffffff;
+
+    position: fixed;
+}
+
+.side li {
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+}
+.side {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.side li a {
+    color: rgba(161, 159, 159, 1);
+    text-decoration-line: none;
+    margin: 0 auto;
+
+    font-family: "Pretendard Variable";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+#locate {
+    color: rgba(102, 193, 146, 1);
+}
+#img {
+    margin-top: 40px;
+}
+
+#text {
+    font-family: "Pretendard Variable";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    margin-top: 50px;
+    margin-left: 48px;
+
+    color: #000000;
+}
+main {
+    width: 1217px;
+    height: 1024px;
+    background-color: rgba(245, 245, 245, 1);
+}
+
+.mission {
+    list-style: none;
+
+    box-sizing: border-box;
+
+    width: 499.5px;
+    height: 48px;
+    padding: 12px;
+
+    border: 1px solid #f5f5f5;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#continue {
+    font-family: "Pretendard Variable";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+#point {
+    font-family: "Pretendard Variable";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+#name {
+    font-family: "Pretendard Variable";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+#myInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 33px;
+
+    position: absolute;
+    width: 432px;
+    height: 352px;
+    left: 265px;
+    top: 129px;
+
+    background: #ffffff;
+    border-radius: 16px;
+}
+
+.mainInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 16px;
+
+    position: absolute;
+    width: 520px;
+    height: 352px;
+    left: 767px;
+    top: 129px;
+
+    background: #ffffff;
+    border-radius: 16px;
+}
+
+#content {
+    display: inline;
+    display: flex;
+    align-items: flex-start;
+}
+
+.famliy {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 16px;
+
+    position: absolute;
+    width: 1066px;
+    height: 316px;
+    left: 269px;
+    top: 540px;
+
+    background: #ffffff;
+    border-radius: 16px;
+}
+
+#famliyRank {
+    /* 가족 내 랭킹 */
+
+    width: 1002px;
+    height: 36px;
+
+    font-family: "Pretendard Variable";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    color: #000000;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.ranking li {
+    list-style: none;
+
+    box-sizing: border-box;
+
+    width: 1002px;
+    height: 48px;
+    padding: 12px;
+
+    border: 1px solid rgba(245, 245, 245, 1);
+    border-radius: 8px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+    display: flex;
+    align-items: center;
+}
+
+#maniddo {
+    font-family: "Pretendard Variable";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+#logOut a {
+    text-decoration-line: none;
+
+    font-family: "Pretendard Variable";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: black;
+}
+
+#logOut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+
+    width: 126px;
+    height: 48px;
+
+    position: relative;
+    top: 224px;
+}
+
+#logOut img {
+    width: 18px;
+    height: 18px;
+}

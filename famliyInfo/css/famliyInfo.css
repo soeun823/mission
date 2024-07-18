@@ -1,0 +1,230 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+main {
+    width: 1217px;
+    height: 1024px;
+    background-color: rgba(245, 245, 245, 1);
+}
+
+aside {
+    position: absolute;
+    width: 200px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+
+    background: #ffffff;
+
+    position: fixed;
+}
+
+.side li {
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+}
+.side {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.side li a {
+    color: rgba(161, 159, 159, 1);
+    text-decoration-line: none;
+    margin: 0 auto;
+
+    font-family: "Pretendard Variable";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+#locate {
+    color: rgba(102, 193, 146, 1);
+}
+#img {
+    margin-top: 40px;
+}
+
+#logOut a {
+    text-decoration-line: none;
+
+    font-family: "Pretendard Variable";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: black;
+}
+
+#logOut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+
+    width: 126px;
+    height: 48px;
+
+    position: relative;
+    top: 224px;
+}
+
+#logOut img {
+    width: 18px;
+    height: 18px;
+}
+
+.content {
+    width: 0 auto;
+    height: 0;
+    padding-left: 40px;
+    gap: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.famliyInfo {
+    /* position: absolute; */
+    width: 1100px;
+    height: 313px;
+    /* left: 264px;
+    top: 141px; */
+    padding: 24px;
+
+    background: #ffffff;
+    border-radius: 16px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.profile {
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+}
+
+.profile img {
+    width: 200px;
+
+    background: #d9d9d9;
+    border-radius: 200px;
+}
+
+.profile button {
+    width: 155px;
+    height: 27px;
+    margin: 0 auto;
+    margin-top: 10px;
+
+    background: #f6f6f6;
+    border-radius: 20px;
+}
+
+.info {
+    /* Frame 5 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 36px 40px;
+    gap: 24px;
+
+    width: 367px;
+    height: 201px;
+}
+
+.info p {
+    font-family: "Pretendard Variable";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+#text {
+    font-family: "Pretendard Variable";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    margin-top: 50px;
+    margin-left: 48px;
+
+    color: #000000;
+}
+
+.famliy {
+    /* 가족 구성원 */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 16px;
+
+    width: 494px;
+    height: 316px;
+
+    background: #ffffff;
+    border: 1px solid #f5f5f5;
+    border-radius: 16px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+#famliyMember {
+    font-family: "Pretendard Variable";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    color: #000000;
+}
+.member li {
+    list-style: none;
+    /* Frame 696 */
+
+    box-sizing: border-box;
+
+    width: 446px;
+    height: 48px;
+    padding-left: 20px;
+
+    border: 1px solid #f5f5f5;
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+}
